@@ -1,0 +1,29 @@
+{
+  "author": "azu",
+  "license": "MIT",
+  "description": "A collection of prh.yml",
+  "private": true,
+  "scripts": {
+    "test": "find . -name \"*.yml\" | xargs -I{} $(npm bin)/prh --rules {} ./README.md > /dev/null"
+  },
+  "keywords": [
+    "prh",
+    "textlint",
+    "yml",
+    "dict",
+    "dictionary"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azu/prh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azu/prh/issues"
+  },
+  "homepage": "https://github.com/azu/prh",
+  "devDependencies": {
+    "add-text-to-markdown": "^1.0.2",
+    "glob": "^7.1.1",
+    "prh": "^1.0.3"
+  }
+}
