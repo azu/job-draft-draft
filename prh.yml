@@ -9,3 +9,5 @@ imports:
   - prh/software.yml
 rules:
   - expected: textlint
+  - expected: この書籍
+    patterns: この本

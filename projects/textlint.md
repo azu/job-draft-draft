@@ -20,7 +20,7 @@ AST(抽象構文木)を作った上でそのASTに対してルールを使って
 文法として成り立たない文章に対してはエキスパートルールで対処しているのが現状です。
 
 - [A Collection of textlint rule](https://github.com/textlint/textlint/wiki/Collection-of-textlint-rule)
-
+    
 すでに[Railsの教科書](http://igarashikuniaki.net/diary/20160331.html)や[よくわかる最新ネットワーク技術の基本と仕組み](http://www.itbook.info/web/2016/09/%E3%80%8C%E3%82%88%E3%81%8F%E3%82%8F%E3%81%8B%E3%82%8B%E6%9C%80%E6%96%B0%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%9C%AC%E3%81%A8%E4%BB%95%E7%B5%84.html)などの書籍で活用されています。
 また、[Vue.jsのドキュメント翻訳](https://github.com/vuejs/jp.vuejs.org/issues/153)や[ScalaText](ScalaText)などオープンソースで公開されている文章においても活用されています。
 
@@ -34,3 +34,4 @@ textlintというプロジェクトを進めることにおいて重要視して
 - [JavaScript Plugin Architecture](https://azu.gitbooks.io/javascript-plugin-architecture/content/)
 
 このプロジェクトから学んだこととして、エコシステムやプラグインを上手く動かすためには、自分自身がそのユーザーになる必要があることです。
+プロダクトの開発者である場合に、そのプロダクトのユーザでないと気づかないことは多くあるため、自分がユーザーとなることは重要だと考えています。
