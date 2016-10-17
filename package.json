@@ -1,6 +1,5 @@
 {
-  "name": "job-draft-draft",
-  "description": "転職ドラフトのドラフト",
+  "private": true,
   "scripts": {
     "textlint": "textlint -f pretty-error projects/",
     "textlint:fix": "textlint --fix projects/",
